@@ -1,2 +1,3 @@
 # use variables.auto.pkvars.hcl to override default variable values 
  packer build -debug -only=amazon-ebs.ubuntu20-ami -var-file="variables.auto.pkrvars.hcl"   consul.pkr.hcl
+ packer build -debug -only=amazon-ebs.amazon-linux-2-ami -var-file="variables.auto.pkrvars.hcl"   consul.pkr.hcl
